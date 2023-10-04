@@ -1,0 +1,14 @@
+
+#first{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#first h1{
+    background: linear-gradient(to right, #efec3b,#e6e8ea);
+    font-size: 60px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 500px;
+}
