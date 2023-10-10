@@ -9,6 +9,7 @@
   flex-wrap: wrap;
   height: 120px;
   color: #3498db;
+  margin: 10px;
 }
 
 #heading h1 {
@@ -18,16 +19,19 @@
     text-align: center;
     width: 100%;
 }
-
+.card-style{
+    width: 950px
+    
+}
 .panel {
   /* border: 2px solid rgb(208, 215, 163); */
   /* border-top: 0px; */
   background-color: #2c3e50;
   width: 402px;
   /* margin-right: 1%; */
-  margin-top: 6%;
   border-radius: 3px;
   /* justify-content: center; */
+  margin-top: 5px;
 }
 .panel h1 {
   color: antiquewhite;
@@ -86,10 +90,10 @@
 }
 .footer{
     /* border: 1px solid black; */
-    margin-top: 145px;
+    margin-top: 65px;
     width: 100%;
     text-align: center;
-    padding: 10px;
+    padding: 3px;
 }
 
 .footer a{
