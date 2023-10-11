@@ -19,16 +19,65 @@
     text-align: center;
     width: 100%;
 }
+
+#quote{
+    text-align: center;
+    font-size: 22px
+}
+
 .card-style{
     width: 950px
+}
+
+.card-custom {
+    width: 16rem;
+    height: 13.5rem !important;
+    margin: 23px;
+    background-color: rgb(103, 229, 240) !important;
+}
+
+.custom-card-body{
+    font-size: 25px;
+    font-weight: 450;
+    color: black;
+  }
+
+@media only screen and (max-width: 480px){
+    *{
+        width: vmax;
+    }
     
+    #heading h1{
+        font-size: 50px;
+        margin-top: 10px;
+    }
+
+    #quote{
+        font-size: 20px;
+    }
+    .card-style{
+        width: 1100px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+
+    }
+    .card-custom {
+    width: 45%;
+    height: 10rem !important;
+    margin: 9px !important;
+    padding: 0px !important;
+  }
+  .custom-card-body{
+    font-size: 16px;
+    font-weight: 500;
+    
+  }
+
 }
 .panel {
   /* border: 2px solid rgb(208, 215, 163); */
-  /* border-top: 0px; */
   background-color: #2c3e50;
   width: 402px;
-  /* margin-right: 1%; */
   border-radius: 3px;
   /* justify-content: center; */
   margin-top: 5px;
