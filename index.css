@@ -13,66 +13,64 @@
 }
 
 #heading h1 {
-    font-size: 65px;
-    font-weight: 600;
-    color: #ffffff;
-    text-align: center;
-    width: 100%;
+  font-size: 65px;
+  font-weight: 600;
+  color: #ffffff;
+  text-align: center;
+  width: 100%;
 }
 
-#quote{
-    text-align: center;
-    font-size: 22px
+#quote {
+  text-align: center;
+  font-size: 22px;
 }
 
-.card-style{
-    width: 950px
+.card-style {
+  width: 950px;
 }
 
 .card-custom {
-    width: 16rem;
-    height: 13.5rem !important;
-    margin: 23px;
-    background-color: rgb(103, 229, 240) !important;
+  width: 16rem;
+  height: 14rem !important;
+  margin: 23px;
+  background-color: rgb(103, 229, 240) !important;
+  text-align: center;
 }
 
-.custom-card-body{
-    font-size: 25px;
-    font-weight: 450;
-    color: black;
+.custom-card-body {
+  font-size: 23px;
+  font-weight: 450;
+  color: black;
+}
+
+@media only screen and (max-width: 480px) {
+  * {
+    width: vmax;
   }
 
-@media only screen and (max-width: 480px){
-    *{
-        width: vmax;
-    }
-    
-    #heading h1{
-        font-size: 50px;
-        margin-top: 10px;
-    }
+  #heading h1 {
+    font-size: 50px;
+    margin-top: 10px;
+  }
 
-    #quote{
-        font-size: 20px;
-    }
-    .card-style{
-        width: 1100px;
-        margin-top: 25px;
-        margin-bottom: 25px;
-
-    }
-    .card-custom {
+  #quote {
+    font-size: 20px;
+  }
+  .card-style {
+    width: 1100px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  .card-custom {
     width: 45%;
     height: 10rem !important;
     margin: 9px !important;
     padding: 0px !important;
   }
-  .custom-card-body{
+  .custom-card-body {
     font-size: 16px;
     font-weight: 500;
-    
   }
-
 }
 .panel {
   /* border: 2px solid rgb(208, 215, 163); */
@@ -91,67 +89,63 @@
   font-weight: 500;
   font-size: 29px;
 }
-.download-items{
-    margin-top: 5px;
-    color: #f2f2f2;
-    /* text-align: center; */
-    
+.download-items {
+  margin-top: 5px;
+  color: #f2f2f2;
+  /* text-align: center; */
 }
-.download-items li a{
-    color: #f2f2f2;
-    text-decoration: none;
-    font-size: 17px;
-    font-weight: 450;
+.download-items li a {
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 450;
 }
 .download-items li a:hover {
   color: #3498db; /* change link color on hover */
 }
 
-.form{
-    border: 1px solid black;
-    width: 600px;
-    height: 100px;
+.form {
+  border: 1px solid black;
+  width: 600px;
+  height: 100px;
 }
 
-
-.important-links{
-    /* border: 1px solid black; */
-    /* border: 2px solid rgb(208, 215, 163); */
-    
+.important-links {
+  /* border: 1px solid black; */
+  /* border: 2px solid rgb(208, 215, 163); */
 }
 
-.useful-links{
-    /* border-top: 2px solid rgb(208, 215, 163); */
-    margin: 2px;
-    text-align: center;
-    color: white;
-    list-style: none;
+.useful-links {
+  /* border-top: 2px solid rgb(208, 215, 163); */
+  margin: 2px;
+  text-align: center;
+  color: white;
+  list-style: none;
 }
 
-.useful-links a{
-    color: #3498db;
-    font-size: 28px;
+.useful-links a {
+  color: #3498db;
+  font-size: 28px;
 }
 
-.useful-links P{
-    font-size: 15px;
-    font-weight: 450;
+.useful-links P {
+  font-size: 15px;
+  font-weight: 450;
 }
-.footer{
-    /* border: 1px solid black; */
-    margin-top: 65px;
-    width: 100%;
-    text-align: center;
-    padding: 3px;
+.footer {
+  /* border: 1px solid black; */
+  margin-top: 65px;
+  width: 100%;
+  text-align: center;
+  padding: 3px;
 }
 
-.footer a{
-    text-decoration: none;
-    text-align: center;
-    color: rgb(224, 224, 209);
-    font-size: 16px;
+.footer a {
+  text-decoration: none;
+  text-align: center;
+  color: rgb(224, 224, 209);
+  font-size: 16px;
 }
-.footer a:hover{
-    color: #3498db;
-
+.footer a:hover {
+  color: #3498db;
 }
